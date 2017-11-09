@@ -1,0 +1,17 @@
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+Error: ���⥬� �� 㤠���� ���� 㪠����� ����.
+
+    at notFoundError (C:\xampp\htdocs\Comkwatt\web\app\themes\comkwatt\node_modules\cross-spawn\lib\enoent.js:11:11)
+    at verifyENOENT (C:\xampp\htdocs\Comkwatt\web\app\themes\comkwatt\node_modules\cross-spawn\lib\enoent.js:46:16)
+    at ChildProcess.cp.emit (C:\xampp\htdocs\Comkwatt\web\app\themes\comkwatt\node_modules\cross-spawn\lib\enoent.js:33:19)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+
+
+
+Ответ:
+https://github.com/sindresorhus/gulp-imagemin/issues/245 
+
+1. cd path\to\the\project\node_modules\gulp-imagemin
+2. npm i
